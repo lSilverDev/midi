@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Alura MIDI</title>
+        <title>MIDI</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,20 +16,20 @@
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <h1>Alura Midi</h1>
+        <h1>Midi</h1>
 
         <section class="teclado">
-            <button onClick="pow()" class="tecla tecla_pom">Pom</button>
+            <button onClick="pom()" class="tecla tecla_pom">Pom</button>
             <button onClick="clap()" class="tecla tecla_clap">Clap</button>
             <button onClick="tim()" class="tecla tecla_tim">Tim</button>
 
-            <button class="tecla tecla_puff">Puff</button>
-            <button class="tecla tecla_splash">Splash</button>
-            <button class="tecla tecla_toim">Toim</button>
+            <button onClick="puff()" class="tecla tecla_puff">Puff</button>
+            <button onClick="splash()" class="tecla tecla_splash">Splash</button>
+            <button onClick="toim()" class="tecla tecla_toim">Toim</button>
 
-            <button class="tecla tecla_psh">Psh</button>
-            <button class="tecla tecla_tic">Tic</button>
-            <button class="tecla tecla_tom">Tom</button>
+            <button onClick="psh()" class="tecla tecla_psh">Psh</button>
+            <button onClick="tic()" class="tecla tecla_tic">Tic</button>
+            <button onClick="tom()" class="tecla tecla_tom">Tom</button>
         </section>
 
         <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
